@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strengths Assessment - Discover Your Top 5 Strengths</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Introduction -->
+        <div id="introduction" class="card">
+            <h1>Discover Your Top 5 Strengths</h1>
+            <p>This comprehensive assessment will help you identify your unique combination of strengths based on the proven CliftonStrengths methodology.</p>
+            <h3>What to Expect:</h3>
+            <ul>
+                <li>50+ paired comparison questions</li>
+                <li>20-30 minutes to complete</li>
+                <li>Personalized results showing your top 5 strengths</li>
+                <li>Detailed descriptions and development suggestions</li>
+            </ul>
+            <button class="btn" onclick="startAssessment()">Begin Assessment</button>
+        </div>
+
+        <!-- Assessment -->
+        <div id="assessment" class="card hidden">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div id="questionContainer">
+                <!-- Questions will be loaded here -->
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn" id="nextBtn" onclick="nextQuestion()" disabled>Next Question</button>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results" class="card hidden">
+            <h1>Your Top 5 Strengths</h1>
+            <div id="resultsContainer">
+                <!-- Results will be displayed here -->
+            </div>
+            <button class="btn" onclick="restartAssessment()">Take Assessment Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
