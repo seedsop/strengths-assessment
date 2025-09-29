@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprehensive Strengths Assessment | Comprehensive Strengths Assessment (Bisaya)</title>
+    <title>Comprehensive Strengths Assessment | Komprehensibong Pagsulay sa Kusog</title>
     <meta name="description" content="Discover your top 5 strengths with this comprehensive assessment based on CliftonStrengths methodology. Available in English and with Bisaya translations.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,12 +19,8 @@
             <p class="language-intro">Please select your preferred language / Palihug pili-a imong gipili nga pinulongan:</p>
             
             <div class="language-options">
-                <button class="btn btn-primary" onclick="selectLanguage('english')">
-                    English
-                </button>
-                <button class="btn btn-primary" onclick="selectLanguage('bisaya')">
-                    English with Bisaya Translation
-                </button>
+                <button class="btn btn-primary" id="english-btn">English</button>
+                <button class="btn btn-primary" id="bisaya-btn">English with Bisaya Translation</button>
             </div>
         </div>
 
@@ -54,7 +50,9 @@
                 </ul>
             </div>
             
-            <button class="btn btn-primary" id="start-btn" onclick="startAssessment()">Begin Assessment</button>
+            <div class="button-container">
+                <button class="btn btn-primary" id="start-btn">Begin Assessment</button>
+            </div>
         </div>
 
         <!-- Assessment -->
@@ -74,8 +72,8 @@
             </div>
             
             <div class="navigation">
-                <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()" disabled>Previous</button>
-                <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>Next</button>
+                <button class="btn btn-secondary" id="prev-btn">Previous</button>
+                <button class="btn btn-primary" id="next-btn">Next</button>
             </div>
         </div>
 
@@ -89,8 +87,8 @@
             </div>
             
             <div class="results-actions">
-                <button class="btn btn-secondary" id="restart-btn" onclick="restartAssessment()">Take Assessment Again</button>
-                <button class="btn btn-primary" id="share-btn" onclick="shareResults()">Share Results</button>
+                <button class="btn btn-secondary" id="restart-btn">Take Assessment Again</button>
+                <button class="btn btn-primary" id="share-btn">Share Results</button>
             </div>
         </div>
     </div>
