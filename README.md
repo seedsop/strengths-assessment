@@ -1,6 +1,6 @@
-# Bilingual Comprehensive Strengths Assessment
+# Comprehensive Strengths Assessment
 
-A research-based assessment tool designed to help individuals discover their top 5 strengths from the 34 CliftonStrengths themes. Available in English and with Bisaya translations.
+A research-based assessment tool designed to help individuals discover their top 5 strengths from the 34 CliftonStrengths themes.
 
 ## Features
 
@@ -8,28 +8,15 @@ A research-based assessment tool designed to help individuals discover their top
 - **Balanced Assessment**: Each theme is equally represented to reduce bias
 - **Five Distinct Sections**: Covering work approach, relationships, decision-making, leadership, and personal growth
 - **Improved Scoring Algorithm**: With normalization to reduce bias toward certain strengths
-- **Bilingual Support**: Available in English and with Bisaya translations
 - **User-Friendly Interface**: Clean, modern design with progress tracking
-- **Detailed Results**: Showing top 5 strengths with descriptions and domains in both languages
-
-## Language Options
-
-### English Version
-- Complete assessment in English only
-- Results displayed in English
-- Ideal for English speakers
-
-### English with Bisaya Translation
-- Questions displayed in Bisaya with English translation below
-- Results displayed in Bisaya with English translation available
-- Ideal for Bisaya speakers or those more comfortable with Bisaya
+- **Detailed Results**: Showing top 5 strengths with descriptions and domains
 
 ## Quick Start
 
 ### Deploy to GitHub Pages (Recommended)
 
 1. Create a GitHub account at [github.com](https://github.com)
-2. Create a new repository named `bilingual-strengths-assessment`
+2. Create a new repository named `strengths-assessment`
 3. Upload these 4 files to your repository:
    - `index.html`
    - `styles.css`
@@ -39,7 +26,7 @@ A research-based assessment tool designed to help individuals discover their top
 5. Under Source, select "Deploy from a branch"
 6. Choose the main branch and / (root) folder
 7. Click Save
-8. Your site will be live at `https://yourusername.github.io/bilingual-strengths-assessment`
+8. Your site will be live at `https://yourusername.github.io/strengths-assessment`
 
 ### Deploy to Netlify
 
@@ -92,29 +79,18 @@ The assessment measures all 34 themes across four domains:
 ### Executing (9 themes)
 - Achiever, Arranger, Belief, Consistency, Deliberative, Discipline, Focus, Responsibility, Restorative
 
-## Bisaya Translation Notes
-
-The Bisaya translations provided are based on Cebuano/Bisaya as spoken in the Central Visayas region of the Philippines. Some considerations:
-
-- **Cultural Context**: Translations have been adapted to reflect cultural nuances
-- **Terminology**: Where direct translations don't exist, descriptive phrases have been used
-- **Clarity**: The primary goal is clarity and understanding, not literal translation
-- **Dialect Variations**: Bisaya has many dialect variations; this version uses commonly understood terms
-
 ## Technical Details
 
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
 - **Design**: Responsive, mobile-first
 - **Deployment**: Static site (can be hosted anywhere)
 - **Browser Support**: Modern browsers (Chrome, Firefox, Safari, Edge)
-- **Language Handling**: JavaScript-based language switching without page reload
 
 ## Customization
 
 You can easily customize:
 
 - **Questions**: Modify the questions in the `script.js` file
-- **Translations**: Update or add translations in the `script.js` file
 - **Styling**: Update colors and layout in the `styles.css` file
 - **Content**: Change text and descriptions in the `index.html` file
 - **Scoring**: Adjust the scoring algorithm in the `normalizeScores` function
@@ -148,18 +124,18 @@ For questions or issues, please create an issue in the repository.
 ## **How to Upload and Deploy**
 
 ### **Step 1: Create the Files**
-1. Create a folder named `bilingual-strengths-assessment`
+1. Create a folder named `strengths-assessment`
 2. Create the 4 files listed above with the exact content provided
 3. Save them in the folder
 
 ### **Step 2: Upload to GitHub**
 1. Go to [github.com](https://github.com) and create an account if you don't have one
 2. Click the "+" icon and select "New repository"
-3. Name it `bilingual-strengths-assessment`
+3. Name it `strengths-assessment`
 4. Set it to "Public" (required for free GitHub Pages)
 5. Click "Create repository"
 6. Click "uploading an existing file"
-7. Drag your `bilingual-strengths-assessment` folder onto the upload area
+7. Drag your `strengths-assessment` folder onto the upload area
 8. Click "Commit changes"
 
 ### **Step 3: Enable GitHub Pages**
@@ -169,14 +145,14 @@ For questions or issues, please create an issue in the repository.
 4. Choose "main" branch and "/ (root)" folder
 5. Click "Save"
 6. Wait a few minutes for deployment
-7. Your site will be available at `https://yourusername.github.io/bilingual-strengths-assessment`
+7. Your site will be available at `https://yourusername.github.io/strengths-assessment`
 
 ### **Step 4: Alternative - Deploy to Netlify**
 1. Go to [netlify.com](https://netlify.com) and create a free account
 2. Once logged in, go to the "Sites" tab
-3. Drag your `bilingual-strengths-assessment` folder onto the "Drop to deploy" area
+3. Drag your `strengths-assessment` folder onto the "Drop to deploy" area
 4. Netlify will automatically deploy your site
 5. You'll get a URL like `random-name.netlify.app`
 6. You can customize this URL in Site Settings
 
-That's it! Your bilingual strengths assessment will be live and ready to use in both English and English with Bisaya translations.
+That's it! Your comprehensive strengths assessment will be live and ready to use.
