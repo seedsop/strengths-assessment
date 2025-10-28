@@ -6,49 +6,49 @@ const assessmentData = {
             questions: [
                 {
                     id: 1,
-                    text: "I am most energized when: (Nakakuha ako labaw sa tanang enerhiya kung:)",
-                    optionA: "I can complete multiple tasks and check them off my list (Makakompleto ako daghang mga buluhaton ug tsekahan sila sa akong lista)",
-                    optionB: "I can think deeply about complex problems and solutions (Makahunahuna ako og lawom bahin sa mga komplikadong problema ug solusyon)",
+                    text: "I am most energized when: (Pinaka ganado ko kung:)",
+                    optionA: "I can complete multiple tasks and check them off my list (Makakumpleto ko ug daghan nga buluhaton ug ma tsek nako sa akong listahan)",
+                    optionB: "I can think deeply about complex problems and solutions ((Maka huna huna ko ug maayo sa mga komplikado nga problema ug solusyon)",
                     themesA: ["Achiever"],
                     themesB: ["Strategic", "Analytical"]
                 },
                 {
                     id: 2,
-                    text: "I prefer to: (Nanginahanglan ko nga:)",
-                    optionA: "Start projects immediately and make adjustments as I go (Magsugod dayon og mga proyekto ug mag-adjust samtang nagpadayon)",
-                    optionB: "Thoroughly plan all aspects before beginning a project (Magplano og maayo sa tanang bahin sa wala pa magsugod og proyekto)",
+                    text: "I prefer to: (Mas ganahan ko:)",
+                    optionA: "Start projects immediately and make adjustments as I go (Magsugod dayon ug mga proyekto og mag adjust nalang samtang naga padayon)",
+                    optionB: "Thoroughly plan all aspects before beginning a project (Planuhon og tarong ang tanan sa wala pa nagsugod ang proyekto)",
                     themesA: ["Activator"],
                     themesB: ["Focus", "Discipline"]
                 },
                 {
                     id: 3,
-                    text: "I adapt easily to: (Madali kong makina-umon sa:)",
-                    optionA: "Changing priorities and can shift direction quickly (Mga nagbalhin-baghin nga prioridad ug makabalhin og direksyon nga paspas)",
-                    optionB: "Stable routines and clear expectations that don't change frequently (Mga establdong rutina ug klarong mga ekspektasyon nga dili kanunay magbag-o)",
+                    text: "I adapt easily to: (Dali ra ko maka-angay sa:)",
+                    optionA: "Changing priorities and can shift direction quickly (Pag-usab sa mga prayoridad ug dali nga makabalhin sa direksyon)",
+                    optionB: "Stable routines and clear expectations that don't change frequently (Klaro nga mga rutina nga gilauman nga dili kanunay mausab)",
                     themesA: ["Adaptability"],
                     themesB: ["Consistency", "Discipline"]
                 },
                 {
                     id: 4,
-                    text: "When making decisions, I focus on: (Sa paghimo og desisyon, nag-focus ako sa:)",
-                    optionA: "Analyzing data and evidence (Pag-analisar sa datos ug ebidensya)",
-                    optionB: "Maintaining harmony and consensus (Pagpabilin sa harmony ug konsenso)",
+                    text: "When making decisions, I focus on: (Kung mag himo ko og desisyon, mas naga pokus ko sa:)",
+                    optionA: "Analyzing data and evidence (Pagsabot sa mga datos ug ebidensya)",
+                    optionB: "Maintaining harmony and consensus (Pagpabilin sa pagkahiusa ug pagsinabtanay)",
                     themesA: ["Analytical"],
                     themesB: ["Harmony"]
                 },
                 {
                     id: 5,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Organizing complex projects with many moving parts (Pag-organisa sa mga komplikadong proyekto nga daghang bahin nga nagalihok)",
-                    optionB: "Focusing intensely on one task until it's completed perfectly (Pag-focus og maayo sa usa ka buluhaton hangtod ma-perfect kini)",
+                    text: "I enjoy: (Malingaw ko:)",
+                    optionA: "Organizing complex projects with many moving parts (Pagplastar og mga komplikado nga proyekto nga daghan og mga kinahanglan lihokon)",
+                    optionB: "Focusing intensely on one task until it's completed perfectly (Magtutok sa isa lang ka trabahuon hangtod mahuman nga walay mali)",
                     themesA: ["Arranger"],
                     themesB: ["Focus"]
                 },
                 {
                     id: 6,
-                    text: "I am driven by: (Gipadagan ako sa:)",
-                    optionA: "My core values and sense of purpose (Akong mga pundasyon nga bili ug kahulugan sa katuyoan)",
-                    optionB: "Achieving specific goals and measurable results (Pag-abot sa mga espesipikong goal ug masukod nga resulta)",
+                    text: "I am driven by: (Gipalihok ko sa:)",
+                    optionA: "My core values and sense of purpose (Ang akong kinauyokan nga mga mithi ug pagbati sa katuyoan)",
+                    optionB: "Achieving specific goals and measurable results (Pagkab-ot sa mga tumong ug masukod nga mga resulta)",
                     themesA: ["Belief"],
                     themesB: ["Achiever"]
                 },
@@ -56,111 +56,111 @@ const assessmentData = {
                     id: 7,
                     text: "I: (Ako:)",
                     optionA: "Carefully consider all possible risks before making decisions (Pagtan-aw og maayo sa tanang posible nga risgo sa wala pa mohimo og desisyon)",
-                    optionB: "Am comfortable making quick decisions with limited information (Komportable ako sa paghimo og paspas nga desisyon gamay lang nga impormasyon)",
+                    optionB: "Am comfortable making quick decisions with limited information (Komportable ko maghimo ug desisyon bisan limitado ra akong nahibal-an)",
                     themesA: ["Deliberative"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 8,
-                    text: "I prefer to work: (Gusto ko magtrabaho:)",
-                    optionA: "Independently with minimal interruptions (Nag-inusara gamay lang nga pagputol)",
-                    optionB: "Collaboratively with frequent interaction (Sa pagtinabangay uban kanunay nga interaksyon)",
+                    text: "I prefer to work: (Mas ganahan ko magtrabaho nga:)",
+                    optionA: "Independently with minimal interruptions (Ako ra isa nga gamay ra ang distorbo)",
+                    optionB: "Collaboratively with frequent interaction (Naay mga kauban nga permi nay interaksyon)",
                     themesA: ["Focus", "Intellection"],
                     themesB: ["Relator", "Harmony"]
                 },
                 {
                     id: 9,
-                    text: "I am energized by: (Nakakuha ako og enerhiya gikan sa:)",
-                    optionA: "Learning new information and concepts (Pagkat-on og bag-ong impormasyon ug konsepto)",
-                    optionB: "Achieving tangible results and outcomes (Pag-abot sa mga konkreto nga resulta ug sangputanan)",
+                    text: "I am energized by: (Ganahan ko nga:)",
+                    optionA: "Learning new information and concepts (Magkat-on ug bag-ong impormasyon ug konsepto)",
+                    optionB: "Achieving tangible results and outcomes (Pag-abot sa klaro ug makita nga mga resulta)",
                     themesA: ["Learner", "Input"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 10,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Meeting new people and building a broad network (Pagtagbog og bag-ong tawo ug pagtukod og lapad nga network)",
+                    text: "I enjoy: (Malingaw ko:)",
+                    optionA: "Meeting new people and building a broad network (Pag-ila ug mga bag-ong tao para sa mas daghan nga koneksyon)",
                     optionB: "Developing deep, meaningful relationships with fewer people (Pagpalambo og lawom, may kahulugang relasyon sa pipila lang ka tawo)",
                     themesA: ["Woo"],
                     themesB: ["Relator"]
                 },
                 {
                     id: 11,
-                    text: "I am most effective when: (Labaw ka epektibo ako kung:)",
-                    optionA: "I can persuade others to my point of view (Makapahimo ako og uban sa akong punto de vista)",
-                    optionB: "I can find common ground and avoid conflict (Makakita ako og komon nga yuta ug likayan ang away)",
+                    text: "I am most effective when: (Pinaka epektibo ko kung:)",
+                    optionA: "I can persuade others to my point of view (Makadani ko ug laing tao sa akong gituohan)",
+                    optionB: "I can find common ground and avoid conflict (Makakita ko ug pareho ug pagtoo aron walay panagbangi)",
                     themesA: ["Communication", "Command"],
                     themesB: ["Harmony"]
                 },
                 {
                     id: 12,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Future possibilities and what could be (Mga posibilidad sa umaabot ug unsa mahimo)",
-                    optionB: "Present realities and what is (Kasamtangang realidad ug unsa karon)",
+                    text: "I focus on: (Naga pokus ako sa:)",
+                    optionA: "Future possibilities and what could be (Mga posibilidad sa umaabot ug unsay pwede pa mahitabo))",
+                    optionB: "Present realities and what is (Sa tinuod nga kahimtang karon ug unsay naa karon)",
                     themesA: ["Futuristic", "Strategic"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 13,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "Competition and being the best (Pagkompetensya ug pagka labing maayo)",
-                    optionB: "Collaboration and team success (Pagtinabangay ug kalampusan sa team)",
+                    text: "I am motivated by: (Mas nadasig ako sa:)",
+                    optionA: "Competition and being the best (Kompetisyon ug mahimong pinaka maayo sa tanan)",
+                    optionB: "Collaboration and team success (Panaghiusa ug kalampusan sa grupo)",
                     themesA: ["Competition"],
                     themesB: ["Harmony"]
                 },
                 {
                     id: 14,
-                    text: "I prefer to communicate with: (Gusto ko makigkomunika uban sa:)",
-                    optionA: "Confidence and authority (Kompido ug awtoridad)",
-                    optionB: "Empathy and understanding (Empati ug pagkasabot)",
+                    text: "I prefer to communicate with: (Mas ganahan ko mosulti uban sa:)",
+                    optionA: "Confidence and authority (Pagsalig ug awtoridad)",
+                    optionB: "Empathy and understanding (Empatiya ug pagsabot)",
                     themesA: ["Command", "Self-Assurance"],
                     themesB: ["Empathy"]
                 },
                 {
                     id: 15,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Collecting information and knowledge for its own sake (Pagkolekta og impormasyon ug kahibalo para sa kaugalingon niini)",
-                    optionB: "Applying information to solve practical problems (Paggamit og impormasyon sa pag-solve sa praktikal nga mga problema)",
+                    text: "I enjoy: (Malingaw ako sa:)",
+                    optionA: "Collecting information and knowledge for its own sake (Pagkolekta ug impormasyon ug kahibalo bisan alang lang sa kahibalo mismo)",
+                    optionB: "Applying information to solve practical problems (Pag-gamit sa impormasyon aron masulbad ang praktikal nga problema)",
                     themesA: ["Input"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 16,
-                    text: "I am comfortable: (Komportable ako:)",
-                    optionA: "Taking charge and directing others (Pagkuha sa responsibilidad ug pagdumala sa uban)",
-                    optionB: "Supporting others and helping them succeed (Pag-support sa uban ug pagtabang nila nga malampuson)",
+                    text: "I am comfortable: (Komportable ko sa :)",
+                    optionA: "Taking charge and directing others (Kung ako ang manguna ug mag-dumala sa uban)",
+                    optionB: "Supporting others and helping them succeed (Kung ako ang mosuporta sa uban ug motabang nga sila molampos)",
                     themesA: ["Command"],
                     themesB: ["Developer"]
                 },
                 {
                     id: 17,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Continuous improvement and excellence (Padayon nga pagpalambo ug kaayuhan)",
-                    optionB: "Restoring things when they go wrong (Pagbalik sa mga butang kon maguba)",
+                    text: "I focus on: (Naga tutok ako sa:)",
+                    optionA: "Continuous improvement and excellence (Padayon nga paglambo ug pagkamaayo)",
+                    optionB: "Restoring things when they go wrong (Pag-ayo sa mga butang kung nay masayop)",
                     themesA: ["Maximizer"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 18,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "Making a significant impact (Paghimo og dako nga epekto)",
+                    text: "I am motivated by: (Madasig ako sa:)",
+                    optionA: "Making a significant impact (Pagbuhat ug dako nga epekto)",
                     optionB: "Personal growth and development (Personal nga pagtubo ug paglambo)",
                     themesA: ["Significance"],
                     themesB: ["Learner"]
                 },
                 {
                     id: 19,
-                    text: "I prefer to work with: (Gusto ko magtrabaho uban sa:)",
-                    optionA: "Proven, reliable methods (Mga na-prove, masaligan nga pamaagi)",
-                    optionB: "Innovate and try new approaches (Mag-innovate ug sulayan ang bag-ong pamaagi)",
+                    text: "I prefer to work with: (Mas ganahan ko magtrabaho gamit ang:)",
+                    optionA: "Proven, reliable methods (Mga napamatud-an ug kasaligan nga pamaagi)",
+                    optionB: "Innovate and try new approaches (Pag bag-o ug pagsulay sa mga bag-ong mga pamaagi)",
                     themesA: ["Consistency"],
                     themesB: ["Ideation"]
                 },
                 {
                     id: 20,
-                    text: "I am energized by: (Nakakuha ako og enerhiya gikan sa:)",
-                    optionA: "Thinking about complex ideas and concepts (Pag hunahuna sa mga komplikadong ideya ug konsepto)",
-                    optionB: "Taking action and getting things done (Pagkuha og aksyon ug paghuman sa mga butang)",
+                    text: "I am energized by: (Napuno kog kusog sa:)",
+                    optionA: "Thinking about complex ideas and concepts (Pagpanghunahuna bahin sa komplikado nga mga ideya ug konsepto)",
+                    optionB: "Taking action and getting things done (Paglihok ug pagkahuman dayon sa mga buluhaton)",
                     themesA: ["Intellection"],
                     themesB: ["Activator"]
                 }
@@ -171,161 +171,161 @@ const assessmentData = {
             questions: [
                 {
                     id: 21,
-                    text: "I can easily: (Makaya ko dali:)",
-                    optionA: "Sense what others are feeling and thinking (Makabati sa gibati ug gihunahuna sa uban)",
-                    optionB: "Focus on logical solutions rather than emotions (Focus sa lohikal nga solusyon dili sa emosyon)",
+                    text: "I can easily: (Dali ra sa ako ang:)",
+                    optionA: "Sense what others are feeling and thinking (Pagbati unsay gibati ug gihunahuna sa uban)",
+                    optionB: "Focus on logical solutions rather than emotions (Pagpokus sa lohikal nga solusyon kaysa emosyon))",
                     themesA: ["Empathy"],
                     themesB: ["Analytical"]
                 },
                 {
                     id: 22,
-                    text: "In group settings, I: (Sa mga grupo, ako:)",
-                    optionA: "Ensure everyone feels included and valued (Siguraduhon nga tanan nakabati nga kabahin ug bilihan)",
-                    optionB: "Focus on achieving group objectives efficiently (Focus sa pag-abot sa mga objetivo sa grupo nga episyente)",
+                    text: "In group settings, I: (Kung naa sa grupo, ako:)",
+                    optionA: "Ensure everyone feels included and valued (Siguraduhon nga ang tanan mobati nga apil ug gihatagan bili)",
+                    optionB: "Focus on achieving group objectives efficiently (Magpokus sa pagkab-ot sa tumong sa grupo sa labing epektibo nga paagi)",
                     themesA: ["Includer"],
                     themesB: ["Focus"]
                 },
                 {
                     id: 23,
-                    text: "I am fascinated by: (Nakapahinumdom ako sa:)",
-                    optionA: "What makes each person unique (Unsa ang nagpaka-iba sa matag tawo)",
-                    optionB: "How people can work together effectively (Unsaon pagtrabaho ang mga tawo nga epektibo)",
+                    text: "I am fascinated by: (Mahibulong ako:)",
+                    optionA: "What makes each person unique (Kung unsa ang nakapahimo nga lahi ang matag usa ka tawo)",
+                    optionB: "How people can work together effectively (Kung giunsa pagtinabangay sa mga tawo aron mahimong epektibo)",
                     themesA: ["Individualization"],
                     themesB: ["Arranger"]
                 },
                 {
                     id: 24,
                     text: "I bring to group interactions: (Gidala ko sa mga interaksyon sa grupo:)",
-                    optionA: "Optimism and enthusiasm (Optimismo ug entusyamo)",
-                    optionB: "Realistic assessment and practical thinking (Realistiko nga pagtasa ug praktikal nga paghunahuna)",
+                    optionA: "Optimism and enthusiasm (Pagkamalaumon ug kadasig)",
+                    optionB: "Realistic assessment and practical thinking (Tinud-anay nga pagsusi ug praktikal nga panghunahuna)",
                     themesA: ["Positivity"],
                     themesB: ["Analytical"]
                 },
                 {
                     id: 25,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Helping others recognize and develop their potential (Pagtabang sa uban nga makakita ug mapalambo ang ilang potensyal)",
-                    optionB: "Focusing on my own growth and development (Pag-focus sa akong kaugalingong pagtubo ug paglambo)",
+                    text: "I enjoy: (Malipay ko:)",
+                    optionA: "Helping others recognize and develop their potential (Pagtabang sa uban nga maila ug mapalambo ang ilang potensyal)",
+                    optionB: "Focusing on my own growth and development (Pagpokus sa akong kaugalingong pagtubo ug paglambo)",
                     themesA: ["Developer"],
                     themesB: ["Learner"]
                 },
                 {
                     id: 26,
-                    text: "I believe: (Nagtuo ako:)",
-                    optionA: "There are meaningful connections between all things (Adunay may kahulugang koneksyon sa tanang butang)",
-                    optionB: "In focusing on what can be directly observed and measured (Sa pag-focus sa unsay mahimo nga direktang makita ug masukdan)",
+                    text: "I believe: (Nagtoo ko:)",
+                    optionA: "There are meaningful connections between all things (Nga adunay mga hinungdanong koneksyon ang tanang butang)",
+                    optionB: "In focusing on what can be directly observed and measured (Sa pagpokus sa mga butang nga makita ug masukod diretso)",
                     themesA: ["Connectedness"],
                     themesB: ["Analytical"]
                 },
                 {
                     id: 27,
-                    text: "I prefer: (Gusto ko:)",
-                    optionA: "Deep, authentic relationships with a few people (Lawom, autentikong relasyon sa pipila ka tawo)",
+                    text: "I prefer: (Mas ganahan ko:)",
+                    optionA: "Deep, authentic relationships with a few people (Lawom ug tinuod nga relasyon uban sa pipila ka tao)",
                     optionB: "Meeting and connecting with many different people (Pagtagbog ug pagkonektar sa daghang lain-laing tawo)",
                     themesA: ["Relator"],
                     themesB: ["Woo"]
                 },
                 {
                     id: 28,
-                    text: "I communicate most effectively: (Labaw ka epektibo ako makigkomunika:)",
-                    optionA: "Through writing and careful preparation (Pinaagi sa pagsulat ug maayong pag-andam)",
-                    optionB: "Through speaking and spontaneous expression (Pinaagi sa pagsulti ug spontaneo nga pagpahayag)",
+                    text: "I communicate most effectively: (Pinaka-epektibo ko makigsulti pinaagi sa:)",
+                    optionA: "Through writing and careful preparation (Pinaagi sa pagsulat ug maampingong pagpangandam)",
+                    optionB: "Through speaking and spontaneous expression (Pinaagi sa pagsulti ug pinakalit nga ekspresyon)",
                     themesA: ["Communication"],
                     themesB: ["Intellection"]
                 },
                 {
                     id: 29,
-                    text: "I am comfortable with: (Komportable ako sa:)",
-                    optionA: "Healthy disagreement and debate (Malinawong dili pagkasundu ug debate)",
-                    optionB: "Avoiding conflict and maintaining harmony (Paglikay sa away ug pagpabilin sa harmony)",
+                    text: "I am comfortable with: (Komportable ko sa:)",
+                    optionA: "Healthy disagreement and debate (Himsog nga panaglantugi ug debate)",
+                    optionB: "Avoiding conflict and maintaining harmony (Paglikay sa panagbangi ug pagpabilin sa panaghiusa)",
                     themesA: ["Command"],
                     themesB: ["Harmony"]
                 },
                 {
                     id: 30,
-                    text: "I am most effective when: (Labaw ka epektibo ako kung:)",
-                    optionA: "I can influence others' decisions (Makaimpluwensya ako sa desisyon sa uban)",
-                    optionB: "I can support others' growth (Makasuporta ako sa pagtubo sa uban)",
+                    text: "I am most effective when: (Pinaka epektibo ko kung:)",
+                    optionA: "I can influence others' decisions (Kung makaimpluwensya ko sa mga desisyon sa uban)",
+                    optionB: "I can support others' growth (Kung masuportahan nako ang pagtubo sa uban)",
                     themesA: ["Communication"],
                     themesB: ["Developer"]
                 },
                 {
                     id: 31,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Being consistent and fair in all situations (Pagka konsistente ug patas sa tanang sitwasyon)",
-                    optionB: "Adapting my approach based on individual circumstances (Pag-akma sa akong pamaagi base sa indibidwal nga sitwasyon)",
+                    text: "I focus on: (Ako nagapokus sa:)",
+                    optionA: "Being consistent and fair in all situations (Pagpabilin nga patas ug pareho sa tanang sitwasyon)",
+                    optionB: "Adapting my approach based on individual circumstances (Pag-angay sa akong paagi base sa indibidwal nga sitwasyon)",
                     themesA: ["Consistency"],
                     themesB: ["Individualization"]
                 },
                 {
                     id: 32,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "External recognition and achievement (Eksternal nga pagkilala ug pag-abot)",
-                    optionB: "Internal satisfaction and personal values (Internal nga kalipay ug personal nga mga bili)",
+                    text: "I am motivated by: (Mas nadasig ako sa:)",
+                    optionA: "External recognition and achievement (Pag-ila gikan sa ubang mga tao ug kalampusan)",
+                    optionB: "Internal satisfaction and personal values (Internal nga katagbawan ug personal nga prinsipyo)",
                     themesA: ["Significance"],
                     themesB: ["Belief"]
                 },
                 {
                     id: 33,
-                    text: "I prefer to: (Gusto ko:)",
-                    optionA: "Understand the historical context of situations (Masabtan ang historikal nga konteksto sa mga sitwasyon)",
-                    optionB: "Focus on future possibilities and innovations (Focus sa mga posibilidad sa umaabot ug mga inobasyon)",
+                    text: "I prefer to: (Mas ganahan ko:)",
+                    optionA: "Understand the historical context of situations (Masabtan ang kasaysayan nga konteksto sa sitwasyon)",
+                    optionB: "Focus on future possibilities and innovations (Magpokus sa umaabot nga posibilidad ug kabag-ohan)",
                     themesA: ["Context"],
                     themesB: ["Futuristic"]
                 },
                 {
                     id: 34,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Deep intellectual discussions and analysis (Lawom nga intelektwal nga diskusyon ug analisis)",
-                    optionB: "Practical, hands-on problem solving (Praktikal, hands-on nga pag-solve sa problema)",
+                    text: "I enjoy: (Malingaw ako:)",
+                    optionA: "Deep intellectual discussions and analysis (Lawom nga intelektwal nga diskusyon ug pagsususi)",
+                    optionB: "Practical, hands-on problem solving (Praktika ug l nga pag-solbar sa problema)",
                     themesA: ["Intellection"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 35,
                     text: "I: (Ako:)",
-                    optionA: "Am confident in my own judgment and decisions (Komportable ako sa akong kaugalingong paghusay ug mga desisyon)",
-                    optionB: "Prefer to get input from others before deciding (Gusto mokuha og input gikan sa uban sa wala magdesisyon)",
+                    optionA: "Am confident in my own judgment and decisions (KKompyansa sa akong kaugalingong paghukom ug mga desisyon)",
+                    optionB: "Prefer to get input from others before deciding (Mas ganahan nga makadungog sa opinyon sa uban una magdesisyonn)",
                     themesA: ["Self-Assurance"],
                     themesB: ["Harmony"]
                 },
                 {
                     id: 36,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Transforming something strong into something superb (Pagbalhin og usa ka bagay nga lig-on ngadto sa labing maayo)",
-                    optionB: "Fixing problems and resolving issues (Pag-ayo sa mga problema ug pag-solve sa mga isyu)",
+                    text: "I focus on: (Naga pokus ako sa:)",
+                    optionA: "Transforming something strong into something superb (Pagbag-o sa maayo nga butang aron mahimong labaw pa ka maayo)",
+                    optionB: "Fixing problems and resolving issues (Pag-ayo sa mga problema ug pagresolba sa mga isyu)",
                     themesA: ["Maximizer"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 37,
-                    text: "I believe in: (Nagtuo ako sa:)",
-                    optionA: "Treating everyone the same according to established rules (Pagtratar sa tanan pareho base sa mga naestablisar nga lagda)",
-                    optionB: "Treating each person as a unique individual (Pagtratar sa matag tawo isip lahi nga indibidwal)",
+                    text: "I believe in: (Nagtoo ko sa:)",
+                    optionA: "Treating everyone the same according to established rules (Pagtratar sa tanan nga parehas sumala sa natukod nga mga balaod)",
+                    optionB: "Treating each person as a unique individual (Pagtratar sa matag usa isip lahi ug talagsaon nga indibidwal)",
                     themesA: ["Consistency"],
                     themesB: ["Individualization"]
                 },
                 {
                     id: 38,
                     text: "I am energized by: (Nakakuha ako og enerhiya gikan sa:)",
-                    optionA: "Being around people and social interaction (Pagpuyo duol sa mga tawo ug sosyal nga interaksyon)",
-                    optionB: "Quiet time for reflection and thinking (Hinay nga oras alang sa pagpahunahuna ug paghunahuna)",
+                    optionA: "Being around people and social interaction (Kung naa ko sa palibot sa mga tawo ug sosyal nga interaksyon)",
+                    optionB: "Quiet time for reflection and thinking (Kung adunay hilom nga oras alang sa pagpamalandong ug pagpanghunahuna)",
                     themesA: ["Woo"],
                     themesB: ["Intellection"]
                 },
                 {
                     id: 39,
                     text: "I prefer to communicate: (Gusto ko makigkomunika:)",
-                    optionA: "Directly and straightforwardly (Direkta ug straight)",
-                    optionB: "Diplomatically and tactfully (Diplomatiko ug tactful)",
+                    optionA: "Directly and straightforwardly (Direkta ug klaro)",
+                    optionB: "Diplomatically and tactfully (Diplomatiko ug maampingon)",
                     themesA: ["Command"],
                     themesB: ["Harmony"]
                 },
                 {
                     id: 40,
                     text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "The challenge of winning (Ang hamog sa pagdaog)",
-                    optionB: "The satisfaction of a job well done (Ang kalipay sa maayong gibuhat nga trabaho)",
+                    optionA: "The challenge of winning (Ang hagit sa pagdaog)",
+                    optionB: "The satisfaction of a job well done (Ang kalipay kung nindot ang resulta sa trabaho)",
                     themesA: ["Competition"],
                     themesB: ["Achiever"]
                 }
@@ -336,161 +336,161 @@ const assessmentData = {
             questions: [
                 {
                     id: 41,
-                    text: "I make decisions based on: (Mogamit ako og desisyon base sa:)",
-                    optionA: "Careful analysis of data (Maayong analisis sa datos)",
-                    optionB: "Intuition and gut feelings (Intuwersyon ug gut feeling)",
+                    text: "I make decisions based on: (Nagahimo ako ug desisyon base sa:)",
+                    optionA: "Careful analysis of data (Maampingong pagsususi sa datos)",
+                    optionB: "Intuition and gut feelings (Intuwisyon ug pagbati)",
                     themesA: ["Analytical"],
                     themesB: ["Intuition"]
                 },
                 {
                     id: 42,
-                    text: "When deciding, I: (Sa pagdesisyon, ako:)",
-                    optionA: "Consider multiple future possibilities (Isipon ang daghang posibilidad sa umaabot)",
-                    optionB: "Focus on the most practical and immediate solution (Focus sa labing praktikal ug dayon nga solusyon)",
+                    text: "When deciding, I: (Kung magdesisyon, ako:)",
+                    optionA: "Consider multiple future possibilities (Ginahuna huna ang daghan nga posibleng mahitabo)",
+                    optionB: "Focus on the most practical and immediate solution (Magpokus sa pinakapratikal ug dali nga solusyon)",
                     themesA: ["Strategic"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 43,
-                    text: "I prefer to: (Gusto ko:)",
-                    optionA: "Make decisions quickly and move forward (Mogamit og desisyon nga paspas ug molihok)",
-                    optionB: "Take time to consider all aspects before deciding (Mokuha og oras sa pagtan-aw sa tanang bahin sa wala magdesisyon)",
+                    text: "I prefer to: (Mas ganahan ko nga:)",
+                    optionA: "Make decisions quickly and move forward (Magdesisyon ug dali ug mopadayon dayon)",
+                    optionB: "Take time to consider all aspects before deciding (Maghatag ug panahon sa pagtan-aw sa tanang bahin una magdesisyon))",
                     themesA: ["Activator"],
                     themesB: ["Deliberative"]
                 },
                 {
                     id: 44,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "What could go wrong and how to prevent it (Unsa ang mahimong sayop ug unsaon ika-prevent)",
-                    optionB: "What could go right and how to achieve it (Unsa ang mahimong tuo ug unsaon maabut)",
+                    text: "I focus on: (Naga pokus ako sa:)",
+                    optionA: "What could go wrong and how to prevent it (Unsay mahimong masayop ug unsaon kini pagpugong)",
+                    optionB: "What could go right and how to achieve it (Unsay mahimong maayo ug unsaon kini pagkab-ot)",
                     themesA: ["Deliberative"],
                     themesB: ["Positivity"]
                 },
                 {
                     id: 45,
-                    text: "I make decisions based on: (Mogamit ako og desisyon base sa:)",
-                    optionA: "Established principles and values (Mga naestablisar nga prinsipyo ug mga bili)",
-                    optionB: "Expected outcomes and results (Ginaasahan nga resulta ug sangputanan)",
+                    text: "I make decisions based on: (Nagahimo ako ug desisyon base sa:)",
+                    optionA: "Established principles and values (Mga prinsipyo ug mithi nga gisunod)",
+                    optionB: "Expected outcomes and results (Mga resulta ug mga gipaabot nga kalampusan)",
                     themesA: ["Belief"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 46,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Creating innovative solutions to problems (Paghimo og inobatibong solusyon sa mga problema)",
-                    optionB: "Implementing proven solutions to problems (Pagpatuman og na-probeng solusyon sa mga problema)",
+                    text: "I enjoy: (Malingaw ako sa:)",
+                    optionA: "Creating innovative solutions to problems (Pagbuhat ug bag-ong solusyon sa problema)",
+                    optionB: "Implementing proven solutions to problems (Pag-implementar sa napamatud-an nga solusyon sa problema)",
                     themesA: ["Ideation"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 47,
-                    text: "I approach problems by: (Nakig-uban ako sa mga problema pinaagi sa:)",
-                    optionA: "Breaking them into logical components (Pagbuklag niini sa lohikal nga mga bahin)",
-                    optionB: "Looking at the big picture first (Tan-aw una ang dako nga litrato)",
+                    text: "I approach problems by: (Gina atubang nako ang problema pinaagi sa:)",
+                    optionA: "Breaking them into logical components (Pagbahinbahin niini sa lohikal nga mga bahin)",
+                    optionB: "Looking at the big picture first (Pagtan-aw una sa tibuok nga hulagway sa problema)",
                     themesA: ["Analytical"],
                     themesB: ["Strategic"]
                 },
                 {
                     id: 48,
-                    text: "I am most comfortable with: (Labaw ka komportable ako sa:)",
-                    optionA: "Proven, reliable methods (Na-probe, masaligan nga mga pamaagi)",
-                    optionB: "New, innovative approaches (Bag-ong, inobatibong pamaagi)",
+                    text: "I am most comfortable with: (Pinaka komportable ako sa:)",
+                    optionA: "Proven, reliable methods (Napamatud-an ug kasaligan nga mga pamaagi)",
+                    optionB: "New, innovative approaches (Bag-ong ug inobatibo nga mga paagi)",
                     themesA: ["Consistency"],
                     themesB: ["Ideation"]
                 },
                 {
                     id: 49,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Understanding why things happened (Pagkasabot nganit nganong nahitabo ang mga butang)",
-                    optionB: "What to do next (Unsa ang buhaton sunod)",
+                    text: "I focus on: (Naga pokus ako sa:)",
+                    optionA: "Understanding why things happened (Pagsabot nganong nahitabo ang mga butang)",
+                    optionB: "What to do next (Kung unsay buhaton sunod)",
                     themesA: ["Context"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 50,
-                    text: "I make decisions based on: (Mogamit ako og desisyon base sa:)",
-                    optionA: "What is fair and consistent (Unsa ang patas ug konsistente)",
-                    optionB: "What will work best in this specific situation (Unsa ang labing maandam niini nga espesipikong sitwasyon)",
+                    text: "I make decisions based on: (Nagahimo ako ug desisyon base sa:)",
+                    optionA: "What is fair and consistent (Kung unsay patas ug makanunayon)",
+                    optionB: "What will work best in this specific situation (Kung unsay labing maayo alang sa maong sitwasyon)",
                     themesA: ["Consistency"],
                     themesB: ["Individualization"]
                 },
                 {
                     id: 51,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Theoretical concepts and abstract thinking (Teoretikal nga konsepto ug abstract nga paghunahuna)",
-                    optionB: "Practical applications and concrete results (Praktikal nga aplikasyon ug konkretong resulta)",
+                    text: "I enjoy: (Malingaw ako sa:)",
+                    optionA: "Theoretical concepts and abstract thinking (Teoretikal nga konsepto ug abstrak nga paghunahuna)",
+                    optionB: "Practical applications and concrete results (Praktikal nga aplikasyon ug konkreto nga resulta)",
                     themesA: ["Intellection"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 52,
-                    text: "I solve problems by: (Nagsolve ako og mga problema pinaagi sa:)",
-                    optionA: "Considering past experiences and precedents (Pagtuo sa mga karaan nga kasinati ug mga precedent)",
-                    optionB: "Imagining new possibilities (Pag-imaginar sa mga bag-ong posibilidad)",
+                    text: "I solve problems by: (Gina sulbad nako ang problema pinaagi sa:)",
+                    optionA: "Considering past experiences and precedents (Pagtagad sa kasinatian sa nangagi ug mga kasinatian nga kapareha)",
+                    optionB: "Imagining new possibilities (Paghuna huna ug bag-ong posibilidad)",
                     themesA: ["Context"],
                     themesB: ["Ideation"]
                 },
                 {
                     id: 53,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "The process of solving problems (Ang proseso sa pag-solve sa mga problema)",
-                    optionB: "Getting to the solution as quickly as possible (Pag-abot sa solusyon nga labing paspas)",
+                    text: "I focus on: (Naga pokus ako sa:)",
+                    optionA: "The process of solving problems (Ang proseso sa pagsulbad sa problema)",
+                    optionB: "Getting to the solution as quickly as possible (Pag-abot dayon sa solusyon sa labing dali nga paagi)",
                     themesA: ["Strategic"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 54,
-                    text: "I make decisions based on: (Mogamit ako og desisyon base sa:)",
-                    optionA: "Thorough research and information gathering (Maayong pagsalikway ug pagkuha og impormasyon)",
-                    optionB: "My core beliefs and values (Akong mga pundasyon nga pagtuo ug mga bili)",
+                    text: "I make decisions based on: (Nagahimo ako ug desisyon base sa:)",
+                    optionA: "Thorough research and information gathering (Kompletong research ug pagtipon sa impormasyon)",
+                    optionB: "My core beliefs and values (Akong kinauyokan nga mga prinsipyo ug bili)",
                     themesA: ["Input"],
                     themesB: ["Belief"]
                 },
                 {
                     id: 55,
-                    text: "I approach problems: (Nakig-uban ako sa mga problema:)",
-                    optionA: "Systematically and methodically (Sistematiko ug metodiko)",
-                    optionB: "Intuitively and adaptably (Intuitibo ug adaptable)",
+                    text: "I approach problems: (Gina atubang nako ang problema pinaagi sa:)",
+                    optionA: "Systematically and methodically (Sa sistematiko ug metodikal nga paagi)",
+                    optionB: "Intuitively and adaptably (Sa intuwitibo ug adaptableng paagi)",
                     themesA: ["Analytical"],
                     themesB: ["Adaptability"]
                 },
                 {
                     id: 56,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Optimizing and improving existing solutions (Pag-optimize ug pagpalambo sa mga naa na solusyon)",
-                    optionB: "Creating entirely new solutions (Paghimo og bag-ong solusyon)",
+                    text: "I focus on: (Naga pokus ako sa:)",
+                    optionA: "Optimizing and improving existing solutions (Pagpaayo ug pagpalambo sa kasamtangan nga solusyon)",
+                    optionB: "Creating entirely new solutions (Pagmugna ug bag-ong solusyon)",
                     themesA: ["Maximizer"],
                     themesB: ["Ideation"]
                 },
                 {
                     id: 57,
-                    text: "I make decisions based on: (Mogamit ako og desisyon base sa:)",
-                    optionA: "Logical analysis (Lohikal nga analisis)",
-                    optionB: "Impact on people (Epekto sa mga tawo)",
+                    text: "I make decisions based on: (Nagahimo ako ug desisyon base sa:)",
+                    optionA: "Logical analysis (Lohikal nga pagsususi)",
+                    optionB: "Impact on people (Epekto niini sa mga tawo)",
                     themesA: ["Analytical"],
                     themesB: ["Empathy"]
                 },
                 {
                     id: 58,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Complex problems that require deep analysis (Mga komplikadong problema nga nanginahanglan og lawom nga analisis)",
-                    optionB: "Straightforward problems with clear solutions (Mga straight nga problema klarong solusyon)",
+                    text: "I enjoy: (Malipay ko sa:)",
+                    optionA: "Complex problems that require deep analysis (Komplikado nga problema nga nanginahanglan ug lalom nga pagsususi)",
+                    optionB: "Straightforward problems with clear solutions (Diretsong problema nga adunay klaro nga solusyon)",
                     themesA: ["Intellection"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 59,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "The long-term implications of decisions (Ang long-term nga implikasyon sa mga desisyon)",
-                    optionB: "The immediate impact of decisions (Ang dayon nga epekto sa mga desisyon)",
+                    text: "I focus on: (Naga pokus ako sa:)",
+                    optionA: "The long-term implications of decisions (Mga umaabot epekto sa desisyon)",
+                    optionB: "The immediate impact of decisions (Mga diretsong epekto sa desisyon)",
                     themesA: ["Strategic"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 60,
-                    text: "I solve problems by: (Nagsolve ako og mga problema pinaagi sa:)",
-                    optionA: "Drawing on my knowledge and expertise (Paggamit sa akong kahibalo ug ekspertis)",
-                    optionB: "Learning new information and approaches (Pagkat-on og bag-ong impormasyon ug pamaagi)",
+                    text: "I solve problems by: (Gina sulbad nako ang problema pinaagi sa:)",
+                    optionA: "Drawing on my knowledge and expertise (Pagkuha gikan sa akong kahibalo ug eksperyensya))",
+                    optionB: "Learning new information and approaches (Pagkat-on ug bag-ong impormasyon ug mga paagi)",
                     themesA: ["Input"],
                     themesB: ["Learner"]
                 }
@@ -501,87 +501,87 @@ const assessmentData = {
             questions: [
                 {
                     id: 61,
-                    text: "I naturally: (Natural ko:)",
-                    optionA: "Take charge of situations and direct others (Mokuha sa kontrol sa mga sitwasyon ug magdumala sa uban)",
-                    optionB: "Prefer to support others and help them succeed (Gusto mosuporta sa uban ug tabangan sila nga malampuson)",
+                    text: "I naturally: (Natural ko nga:)",
+                    optionA: "Take charge of situations and direct others (Manguna sa mga sitwasyon ug mag-giya sa uban)",
+                    optionB: "Prefer to support others and help them succeed (Mas ganahan kong mosuporta sa uban ug motabang aron sila makab-ot og kalampusan)",
                     themesA: ["Command"],
                     themesB: ["Developer"]
                 },
                 {
                     id: 62,
-                    text: "I am most effective when: (Labaw ka epektibo ako kung:)",
-                    optionA: "I can persuade and inspire others (Makapahimo ako ug makapag-umay sa uban)",
-                    optionB: "I can analyze and plan thoroughly (Maka-analisar ako ug magplano og maayo)",
+                    text: "I am most effective when: (Mas epektibo ko kung:)",
+                    optionA: "I can persuade and inspire others (Makadani ug makapadasig ko sa uban)",
+                    optionB: "I can analyze and plan thoroughly (Makaanalisar ug makaplano ko og maayo)",
                     themesA: ["Communication"],
                     themesB: ["Strategic"]
                 },
                 {
                     id: 63,
-                    text: "I focus on achieving: (Nag-focus ako sa pag-abot sa:)",
-                    optionA: "Recognition and significance (Pagkilala ug importansya)",
-                    optionB: "Personal excellence and growth (Personal nga kaayuhan ug pagtubo)",
+                    text: "I focus on achieving: (Nagapokus ko sa pag-abot sa:)",
+                    optionA: "Recognition and significance (Pag-ila ug paghatag bili)",
+                    optionB: "Personal excellence and growth (Personal nga kahanas ug pagtubo)",
                     themesA: ["Significance"],
                     themesB: ["Maximizer"]
                 },
                 {
                     id: 64,
-                    text: "I lead by: (Nanguna ako pinaagi sa:)",
-                    optionA: "Building consensus and harmony (Pagtukod og konsenso ug harmony)",
-                    optionB: "Making clear decisions and providing direction (Paghimo og klarong desisyon ug paghatag direksyon)",
+                    text: "I lead by: (Nanguna ko pinaagi sa:)",
+                    optionA: "Building consensus and harmony (Pagtukod og panaghiusa ug kalinaw)",
+                    optionB: "Making clear decisions and providing direction (Paghimo og klarong desisyon ug paghatag og giya)",
                     themesA: ["Harmony"],
                     themesB: ["Command"]
                 },
                 {
                     id: 65,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "The challenge of influencing others (Ang hamog sa pagpaimpluwensya sa uban)",
-                    optionB: "The satisfaction of achieving results (Ang kalipay sa pag-abot sa resulta)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "The challenge of influencing others (Ang hagit sa pag-impluwensya sa uban)",
+                    optionB: "The satisfaction of achieving results (Ang kalipay sa pagkab-ot sa mga resulta)",
                     themesA: ["Woo"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 66,
-                    text: "I communicate with: (Makigkomunika ako uban sa:)",
-                    optionA: "Confidence and authority (Kompido ug awtoridad)",
-                    optionB: "Empathy and understanding (Empati ug pagkasabot)",
+                    text: "I communicate with: (Makigkomunikar ko uban sa:)",
+                    optionA: "Confidence and authority (Kompiyansa ug awtoridad)",
+                    optionB: "Empathy and understanding (Pagpakig-ambit ug pagsabot)",
                     themesA: ["Command"],
                     themesB: ["Empathy"]
                 },
                 {
                     id: 67,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Future possibilities and vision (Mga posibilidad sa umaabot ug pangitaa)",
-                    optionB: "Practical implementation and execution (Praktikal nga pagpatuman ug pagpatuman)",
+                    text: "I focus on: (Nagapokus ko sa:)",
+                    optionA: "Future possibilities and vision (Mga posibilidad sa umaabot ug panan-aw)",
+                    optionB: "Practical implementation and execution (Praktikal nga pagpatuman ug paglihok)",
                     themesA: ["Futuristic"],
                     themesB: ["Focus"]
                 },
                 {
                     id: 68,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Competition and measuring myself against others (Pagkompetensya ug pagsukod sa akong kaugalingon batok sa uban)",
-                    optionB: "Collaboration and team success (Pagtinabangay ug kalampusan sa team)",
+                    text: "I enjoy: (Nalipay ko sa:)",
+                    optionA: "Competition and measuring myself against others (Pagkompetensya ug pagtandi sa akong kaugalingon sa uban)",
+                    optionB: "Collaboration and team success (Pagtinabangay ug kalampusan sa grupo)",
                     themesA: ["Competition"],
                     themesB: ["Harmony"]
                 },
                 {
                     id: 69,
-                    text: "I am comfortable with: (Komportable ako sa:)",
-                    optionA: "Taking risks and making bold decisions (Paggamit og risgo ug paghimo og bolde nga desisyon)",
-                    optionB: "Careful planning and calculated risks (Maayong pagplano ug kalkulado nga mga risgo)",
+                    text: "I am comfortable with: (Komportable ko sa:)",
+                    optionA: "Taking risks and making bold decisions (Pagdawat og risgo ug paghimo og maisugon nga mga desisyon)",
+                    optionB: "Careful planning and calculated risks (Maampingong pagplano ug maayong pagtimang sa risgo)",
                     themesA: ["Self-Assurance"],
                     themesB: ["Deliberative"]
                 },
                 {
                     id: 70,
-                    text: "I lead by: (Nanguna ako pinaagi sa:)",
-                    optionA: "Inspiring others with enthusiasm (Pagpahimutang sa uban uban ang entusyamo)",
-                    optionB: "Providing stability and consistency (Paghatag ug katibuk-ang ug konsistensya)",
+                    text: "I lead by: (Nanguna ko pinaagi sa:)",
+                    optionA: "Inspiring others with enthusiasm (Pagpahimutang sa uban nga nay kadasig)",
+                    optionB: "Providing stability and consistency (Paghatag ug kalig-on ug pagkamakanunayon)",
                     themesA: ["Positivity"],
                     themesB: ["Discipline"]
                 },
                 {
                     id: 71,
-                    text: "I focus on: (Nag-focus ako sa:)",
+                    text: "I focus on: (Nagpokus ko sa:)",
                     optionA: "Transforming good into great (Pagbalhin sa maayo ngadto sa bantugan)",
                     optionB: "Fixing what's wrong (Pag-ayo sa sayop)",
                     themesA: ["Maximizer"],
@@ -589,7 +589,7 @@ const assessmentData = {
                 },
                 {
                     id: 72,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
                     optionA: "Making a significant impact (Paghimo og dako nga epekto)",
                     optionB: "Personal growth and development (Personal nga pagtubo ug paglambo)",
                     themesA: ["Significance"],
@@ -597,24 +597,24 @@ const assessmentData = {
                 },
                 {
                     id: 73,
-                    text: "I communicate most effectively through: (Labaw ka epektibo ako makigkomunika pinaagi sa:)",
-                    optionA: "Inspiring presentations (Mga nakapahimutang nga presentasyon)",
-                    optionB: "Thoughtful analysis (May pagtagad nga analisis)",
+                    text: "I communicate most effectively through: (Labaw ka epektibo ako makigstorya pinaagi sa:)",
+                    optionA: "Inspiring presentations (Makapadasig nga mga presentasyon)",
+                    optionB: "Thoughtful analysis (Mahunahunaon nga pagtuki)",
                     themesA: ["Communication"],
                     themesB: ["Analytical"]
                 },
                 {
                     id: 74,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Being in the spotlight and receiving recognition (Pagpuyo sa spotlight ug pagdawat og pagkilala)",
-                    optionB: "Working behind the scenes and supporting others (Pagtrabaho sa likod ug pag-support sa uban)",
+                    text: "I enjoy: (Nalipay ko sa:)",
+                    optionA: "Being in the spotlight and receiving recognition (Naa sa spotlight ug nakadawat og pag-ila)",
+                    optionB: "Working behind the scenes and supporting others (Pagtrabaho sa luyo sa mga talan-awon ug pagsuporta sa uban)",
                     themesA: ["Significance"],
                     themesB: ["Responsibility"]
                 },
                 {
                     id: 75,
-                    text: "I lead by: (Nanguna ako pinaagi sa:)",
-                    optionA: "Challenging others to excel (Paghamog sa uban nga mag-eksil)",
+                    text: "I lead by: (Nanguna ko pinaagi sa:)",
+                    optionA: "Challenging others to excel (Paghagit sa uban nga molampos)",
                     optionB: "Developing others' potential (Pagpalambo sa potensyal sa uban)",
                     themesA: ["Maximizer"],
                     themesB: ["Developer"]
@@ -622,40 +622,40 @@ const assessmentData = {
                 {
                     id: 76,
                     text: "I focus on being: (Nag-focus ako sa pagka:)",
-                    optionA: "Innovative and forward-thinking (Inobatibo ug forward-thinking)",
-                    optionB: "Reliable and consistent (Masaligan ug konsistente)",
+                    optionA: "Innovative and forward-thinking (Makabag-o ug paghuna huna sa umaabot)",
+                    optionB: "Reliable and consistent (kasaligan ug makanunayon)",
                     themesA: ["Ideation"],
                     themesB: ["Consistency"]
                 },
                 {
                     id: 77,
-                    text: "I am most effective when: (Labaw ka epektibo ako kung:)",
-                    optionA: "I can take initiative and activate others (Makakuha ako og inisyatibo ug mag-activate sa uban)",
-                    optionB: "I can provide stability and support (Makahatag ako ug katibuk-ang ug suporta)",
+                    text: "I am most effective when: (Pinaka epektibo ko kung:)",
+                    optionA: "I can take initiative and activate others (Makahimo kog inisyatibo ug makapaaktibo sa uban)",
+                    optionB: "I can provide stability and support (Makahatag ako og kalig-on ug suporta)",
                     themesA: ["Activator"],
                     themesB: ["Responsibility"]
                 },
                 {
                     id: 78,
-                    text: "I lead by: (Nanguna ako pinaagi sa:)",
-                    optionA: "Creating excitement and momentum (Paghimo og kusog ug momentum)",
-                    optionB: "Providing structure and clarity (Paghatag ug istruktura ug klaridad)",
+                    text: "I lead by: (Nanguna ko pinaagi sa:)",
+                    optionA: "Creating excitement and momentum (Pagmugna og kahinam ug momentum)",
+                    optionB: "Providing structure and clarity (Paghatag istruktura ug katin-aw)",
                     themesA: ["Positivity"],
                     themesB: ["Discipline"]
                 },
                 {
                     id: 79,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Achieving ambitious goals and recognition (Pag-abot sa mga ambisyoso nga goal ug pagkilala)",
-                    optionB: "Living according to my core values (Pagpuyo base sa akong mga pundasyon nga bili)",
+                    text: "I focus on: (Nagpokus ko sa:)",
+                    optionA: "Achieving ambitious goals and recognition (Pagkab-ot sa dinagko nga mga tumong ug pag-ila)",
+                    optionB: "Living according to my core values (Pagkinabuhi sumala sa akong kinauyokan nga mga mithi)",
                     themesA: ["Competition"],
                     themesB: ["Belief"]
                 },
                 {
                     id: 80,
-                    text: "I am comfortable with: (Komportable ako sa:)",
-                    optionA: "Confrontation and difficult conversations (Pag-atubang ug lisud nga mga panulti)",
-                    optionB: "Maintaining harmony and avoiding confrontation (Pagpabilin sa harmony ug paglikay sa pag-atubang)",
+                    text: "I am comfortable with: (Komportable ko sa:)",
+                    optionA: "Confrontation and difficult conversations (Ang komprontasyon ug lisud nga mga panag-istoryahanay)",
+                    optionB: "Maintaining harmony and avoiding confrontation (Pagmintinar sa panag-uyon ug paglikay sa komprontasyon)",
                     themesA: ["Command"],
                     themesB: ["Harmony"]
                 }
@@ -666,161 +666,161 @@ const assessmentData = {
             questions: [
                 {
                     id: 81,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
                     optionA: "Learning new things and acquiring knowledge (Pagkat-on og mga bag-ong butang ug pagkuha og kahibalo)",
-                    optionB: "Achieving tangible results and outcomes (Pag-abot sa mga konkretong resulta ug sangputanan)",
+                    optionB: "Achieving tangible results and outcomes (Pagkab-ot sa klaro ug makita nga mga resulta)",
                     themesA: ["Learner"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 82,
-                    text: "I focus on: (Nag-focus ako sa:)",
+                    text: "I focus on: (NNagpasiugda ko sa:)",
                     optionA: "Continuous improvement and excellence (Padayon nga pagpalambo ug kaayuhan)",
-                    optionB: "Restoring things when they go wrong (Pagbalik sa mga butang kon maguba)",
+                    optionB: "Restoring things when they go wrong (Pagbalik sa mga butang kung maguba)",
                     themesA: ["Maximizer"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 83,
-                    text: "I am energized by: (Nakakuha ako og enerhiya gikan sa:)",
+                    text: "I am energized by: (Nakabaton ko ug kusog pinaagi sa:)",
                     optionA: "Thinking about the future and possibilities (Pag hunahuna sa umaabot ug mga posibilidad)",
-                    optionB: "Dealing with present realities and challenges (Pagdeal sa kasamtangang realidad ug mga hamug)",
+                    optionB: "Dealing with present realities and challenges (Pag-atubang ug pagdumala sa kasamtangang mga sitwasyon ug mga hagit)",
                     themesA: ["Futuristic"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 84,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Collecting information and knowledge for its own sake (Pagkolekta og impormasyon ug kahibalo para sa kaugalingon niini)",
-                    optionB: "Applying information to solve practical problems (Paggamit og impormasyon sa pag-solve sa praktikal nga mga problema)",
+                    text: "I enjoy: (Nalipay ko sa:)",
+                    optionA: "Collecting information and knowledge for its own sake (Pagpangita ug impormasyon ug kahibalo alang sa akong kaugalingong interes ug paglambo)",
+                    optionB: "Applying information to solve practical problems (Paggamit sa akong kahibalo aron masulbad ang tinuod nga mga problema)",
                     themesA: ["Input"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 85,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "External recognition and achievement (Eksternal nga pagkilala ug pag-abot)",
-                    optionB: "Internal satisfaction and personal values (Internal nga kalipay ug personal nga mga bili)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "External recognition and achievement (Pag-ila ug pagdayeg gikan sa uban tungod sa akong mga kalampusan)",
+                    optionB: "Internal satisfaction and personal values (Kalipay ug katagbawan nga naggikan sa akong kaugalingong mga prinsipyo ug bili)",
                     themesA: ["Significance"],
                     themesB: ["Belief"]
                 },
                 {
                     id: 86,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Developing my existing strengths (Pagpalambo sa akong naa na mga kusog)",
-                    optionB: "Improving my areas of weakness (Pagpalambo sa akong mga lugar nga kuyaw)",
+                    text: "I focus on: (Nagpasiugda ko sa:)",
+                    optionA: "Developing my existing strengths (Pagpalig-on ug pagpalambo sa akong mga abilidad ug kusog)",
+                    optionB: "Improving my areas of weakness (Pagpauswag sa mga aspeto nga gusto pa nako mapalambo)",
                     themesA: ["Maximizer"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 87,
-                    text: "I am energized by: (Nakakuha ako og enerhiya gikan sa:)",
-                    optionA: "Being around people and social interaction (Pagpuyo duol sa mga tawo ug sosyal nga interaksyon)",
-                    optionB: "Quiet time for reflection and thinking (Hinay nga oras alang sa pagpahunahuna ug paghunahuna)",
+                    text: "I am energized by: (Nakabaton ko ug kusog pinaagi sa:)",
+                    optionA: "Being around people and social interaction (Pagpakiguban ug pakig-istorya sa mga tawo)",
+                    optionB: "Quiet time for reflection and thinking (Hilum nga panahon alang sa pagpamalandong ug paghunahuna)",
                     themesA: ["Woo"],
                     themesB: ["Intellection"]
                 },
                 {
                     id: 88,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Theoretical concepts and abstract thinking (Teoretikal nga konsepto ug abstract nga paghunahuna)",
+                    text: "I enjoy: (Nalipay ko sa:)",
+                    optionA: "Theoretical concepts and abstract thinking (Pagdiskobre ug paghunahuna sa mga konsepto ug ideyang lawom ug abstrak)",
                     optionB: "Practical applications and concrete results (Praktikal nga aplikasyon ug konkretong resulta)",
                     themesA: ["Intellection"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 89,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "Making a difference in the world (Paghimo og kalainan sa kalibutan)",
-                    optionB: "Achieving personal success (Pag-abot sa personal nga kalampusan)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "Making a difference in the world (Pagpahimo ug kausaban o positibong epekto sa kalibutan)",
+                    optionB: "Achieving personal success (Pagkab-ot sa akong kaugalingong kalampusan)",
                     themesA: ["Belief"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 90,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Understanding the historical context of situations (Pagkasabot sa historikal nga konteksto sa mga sitwasyon)",
-                    optionB: "Future possibilities and innovations (Mga posibilidad sa umaabot ug mga inobasyon)",
+                    text: "I focus on: (Nagpasiugda ko sa:)",
+                    optionA: "Understanding the historical context of situations (Pagtuon sa kasaysayan ug kahimtang aron masabtan ang sitwasyon)",
+                    optionB: "Future possibilities and innovations (Paglantaw sa mga umaabot nga oportunidad ug kabag-ohan)",
                     themesA: ["Context"],
                     themesB: ["Futuristic"]
                 },
                 {
                     id: 91,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "The challenge of winning and competition (Ang hamog sa pagdaog ug kompetensya)",
-                    optionB: "The satisfaction of a job well done (Ang kalipay sa maayong gibuhat nga trabaho)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "The challenge of winning and competition (Ang hagit sa pagdaog ug pagpanguna sa kompetisyon))",
+                    optionB: "The satisfaction of a job well done (Ang kalipay ug katagbawan nga makuha sa maayong pagkahimo sa trabaho)",
                     themesA: ["Competition"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 92,
-                    text: "I enjoy: (Ganahan ako:)",
-                    optionA: "Deep intellectual discussions and analysis (Lawom nga intelektwal nga diskusyon ug analisis)",
-                    optionB: "Practical, hands-on problem solving (Praktikal, hands-on nga pag-solve sa problema)",
+                    text: "I enjoy: (Nalipay ko sa:)",
+                    optionA: "Deep intellectual discussions and analysis (Lalum ug makapadasig nga panaghisgot ug pag-analisar)",
+                    optionB: "Practical, hands-on problem solving (Direktang pagtrabaho sa pagsulbad sa mga problema)",
                     themesA: ["Intellection"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 93,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "Personal growth and self-improvement (Personal nga pagtubo ug pagpalambo sa kaugalingon)",
-                    optionB: "Achieving specific goals and outcomes (Pag-abot sa mga espesipikong goal ug sangputanan)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "Personal growth and self-improvement (Paglambo sa kaugalingon ug pagpalambo sa akong abilidad))",
+                    optionB: "Achieving specific goals and outcomes (Pagkab-ot sa tinuyo ug klarong mga tumong)",
                     themesA: ["Learner"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 94,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Transforming something strong into something superb (Pagbalhin og usa ka butang nga lig-on ngadto sa labing maayo)",
-                    optionB: "Fixing problems and resolving issues (Pag-ayo sa mga problema ug pag-solve sa mga isyu)",
+                    text: "I focus on: (Nagpasiugda ko sa:)",
+                    optionA: "Transforming something strong into something superb (Pagpauswag sa usa ka maayo nga butang aron mahimong labing maayo)",
+                    optionB: "Fixing problems and resolving issues (Pag-ayo ug pagsulbad sa mga problema ug isyu)",
                     themesA: ["Maximizer"],
                     themesB: ["Restorative"]
                 },
                 {
                     id: 95,
-                    text: "I am energized by: (Nakakuha ako og enerhiya gikan sa:)",
-                    optionA: "Variety and new experiences (Variety ug bag-ong kasinati)",
-                    optionB: "Routine and predictability (Rutina ug predictability)",
+                    text: "I am energized by: (Nakabaton ko ug kusog pinaagi sa:)",
+                    optionA: "Variety and new experiences (bag-ong mga kasinatian ug kalainlain nga buhaton)",
+                    optionB: "Routine and predictability (Pagtrabaho sa naandan ug klarong sistema)",
                     themesA: ["Adaptability"],
                     themesB: ["Discipline"]
                 },
                 {
                     id: 96,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "Being reliable and responsible (Pagka masaligan ug responsable)",
-                    optionB: "Being significant and making an impact (Pagka importante ug paghimo og epekto)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "Being reliable and responsible (Pagpakita nga kasaligan ug responsable sa akong mga buhat)",
+                    optionB: "Being significant and making an impact (Pagkahinungdanon ug paghatag ug positibong epekto sa uban)",
                     themesA: ["Responsibility"],
                     themesB: ["Significance"]
                 },
                 {
                     id: 97,
                     text: "I enjoy learning: (Ganahan ako magkat-on:)",
-                    optionA: "For the joy of learning itself (Alang sa kalipay sa pagkat-on mismo)",
-                    optionB: "To achieve specific goals (Para maabut ang mga espesipikong goal)",
+                    optionA: "For the joy of learning itself (Tungod sa kalipay nga akong makuha sa proseso sa pagkat-on mismo))",
+                    optionB: "To achieve specific goals (Aron makab-ot ang mga tumong nga akong gituyo)",
                     themesA: ["Learner"],
                     themesB: ["Achiever"]
                 },
                 {
                     id: 98,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "Internal standards and values (Internal nga standard ug mga bili)",
-                    optionB: "External validation and recognition (Eksternal nga balido ug pagkilala)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "Internal standards and values (Kaugalingong prinsipyo ug bili nga nagagiya sa akong mga desisyon)",
+                    optionB: "External validation and recognition (Pagdayeg ug pag-ila gikan sa uban)",
                     themesA: ["Belief"],
                     themesB: ["Significance"]
                 },
                 {
                     id: 99,
-                    text: "I focus on: (Nag-focus ako sa:)",
-                    optionA: "Future possibilities and what could be (Mga posibilidad sa umaabot ug unsa mahimo)",
-                    optionB: "Present realities and what is (Kasamtangang realidad ug unsa karon)",
+                    text: "I focus on: (Nagpasiugda ko sa:)",
+                    optionA: "Future possibilities and what could be (Paglantaw sa mga posibilidad ug kahigayunan sa umaabot)",
+                    optionB: "Present realities and what is (Pag-atubang sa tinuod ug kasamtangang kahimtang)",
                     themesA: ["Futuristic"],
                     themesB: ["Activator"]
                 },
                 {
                     id: 100,
-                    text: "I am motivated by: (Gipamotibo ako sa:)",
-                    optionA: "Personal freedom and independence (Personal nga kagawasan ug independensya)",
-                    optionB: "Structure and clear expectations (Estruktura ug klarong mga ekspektasyon)",
+                    text: "I am motivated by: (Gipadasig ko sa:)",
+                    optionA: "Personal freedom and independence (Pagkinabuhi nga gawasnon ug adunay kaugalingong pagpili)",
+                    optionB: "Structure and clear expectations (Organisado ug klarong direksyon o giya sa buhat)",
                     themesA: ["Self-Assurance"],
                     themesB: ["Discipline"]
                 }
@@ -1176,4 +1176,5 @@ function restartAssessment() {
     
     document.getElementById('results').classList.add('hidden');
     document.getElementById('introduction').classList.remove('hidden');
+
 }
